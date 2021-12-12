@@ -18,6 +18,16 @@ Developers frequently have to create interfaces that allow non-developers to eas
 
 - [console.table package](https://www.npmjs.com/package/console.table)
 
+<span style= "color:green"> **Installation;** </span>
+
+<span style="color:yellow">1.</span> npm i mysql2
+
+<span style="color:yellow">2.</span> npm i inquirer
+
+<span style="color:yellow">3.</span> npm i console.table
+
+<br>
+
 ### Preview:
 
 #
