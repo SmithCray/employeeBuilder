@@ -17,3 +17,32 @@ const db = mysql.createConnection(
   },
   console.log(`Connected to the employee database!`)
 );
+
+db.query("SELECT * FROM department", function (err, results) {
+  if (err) {
+    console.log(err);
+  }
+  console.log(results);
+});
+
+db.query("SELECT * FROM roles", function (err, results) {
+  if (err) {
+    console.log(err);
+  }
+  console.log(results);
+});
+
+db.query("SELECT * FROM employee", function (err, results) {
+  if (err) {
+    console.log(err);
+  }
+  console.log(results);
+});
+
+app.use((req, res) => {
+  res.status(404).end();
+});
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});

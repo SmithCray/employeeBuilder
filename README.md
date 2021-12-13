@@ -30,13 +30,15 @@ Developers frequently have to create interfaces that allow non-developers to eas
 
 <span style="color:yellow">1.</span> node index.js
 
+<span style="color:yellow">2.</span> node server.js
+
 <br>
 
 ### Preview:
 
 #
 
-(Insert snippet here)
+![Console Command preview](./Assets/hom10pre.PNG)
 
 ### **Links**
 
@@ -44,7 +46,7 @@ Developers frequently have to create interfaces that allow non-developers to eas
 
 Video Example:
 <br>
-(Insert video)
+https://drive.google.com/file/d/1w8HxD9L-IK0l8_ZuOn3c1TXcDh0x3YKD/view
 
 GitHub repo:
 <br>
@@ -53,6 +55,8 @@ https://github.com/SmithCray/employeeBuilder
 Git Profile:
 <br>
 https://github.com/SmithCray
+
+<br>
 
 ## <span style="color:orange"> Copyright (c) [2021] </span> <span style="color:green"> [Cray Smith] </span>
 
