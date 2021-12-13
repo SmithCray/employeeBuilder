@@ -26,6 +26,10 @@ Developers frequently have to create interfaces that allow non-developers to eas
 
 <span style="color:yellow">3.</span> npm i console.table
 
+<span style= "color:green"> **Console Command;** </span>
+
+<span style="color:yellow">1.</span> node index.js
+
 <br>
 
 ### Preview:
