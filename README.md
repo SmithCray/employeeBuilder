@@ -44,7 +44,7 @@ Developers frequently have to create interfaces that allow non-developers to eas
 
 Video Example:
 <br>
-https://drive.google.com/file/d/1QoAAy6dW8W2XE0BA1q84NI3BC_bnr7_7/view
+https://drive.google.com/file/d/1Rd13tl69zaYJhLWcnccYbXrFBD3qWyeD/view
 
 GitHub repo:
 <br>
