@@ -15,9 +15,9 @@ VALUES ("Zazu is underrated. Give that hornbill a sequel!", 150, 30),
        ("Those flying monkeys are nightmare fuel!", 127, 35);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Lion", "King", 11, 0),
-       ("The", "Godfather", 13, 0),
-       ("WestSide", "Story", 15, 0),
-       ("Parasite", "Parasite", 17, 0),
-       ("Wizard", "ofOz", 19, 0);
+VALUES ("Lion", "King", 11, 30),
+       ("The", "Godfather", 13, 30),
+       ("WestSide", "Story", 15, 35),
+       ("Parasite", "Parasite", 17, 21),
+       ("Wizard", "ofOz", 19, 27);
        

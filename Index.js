@@ -34,7 +34,7 @@ function viewDepartments() {
     if (err) {
       console.log(err);
     }
-    console.log(results);
+    console.table(results);
   });
 }
 
@@ -43,7 +43,7 @@ function viewRoles() {
     if (err) {
       console.log(err);
     }
-    console.log(results);
+    console.table(results);
   });
 }
 
@@ -52,7 +52,7 @@ function viewEmployees() {
     if (err) {
       console.log(err);
     }
-    console.log(results);
+    console.table(results);
   });
 }
 
@@ -73,7 +73,7 @@ function addDepartment() {
           if (err) {
             console.log(err);
           }
-          console.log(results);
+          console.table(results);
           viewDepartments();
         }
       );
@@ -116,7 +116,7 @@ function addRole() {
           if (err) {
             console.log(err);
           }
-          console.log(results);
+          console.table(results);
           viewRoles();
         }
       );
@@ -160,7 +160,7 @@ function addEmployee() {
           if (err) {
             console.log(err);
           }
-          console.log(results);
+          console.table(results);
           viewEmployees();
         }
       );
