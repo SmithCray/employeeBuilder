@@ -96,17 +96,17 @@ function addRole() {
         message: "Please enter the salary of this role",
         name: "salaryPrompt",
       },
-      // {
-      //   type: "input",
-      //   message: "Please enter the department ID of this role",
-      //   name: "deptPrompt",
-      // },
       {
-        type: "list",
+        type: "input",
         message: "Please enter the department ID of this role",
-        name: deptPrompt,
-        choices: [],
+        name: "deptPrompt",
       },
+      // {
+      //   type: "list",
+      //   message: "Please enter the department ID of this role",
+      //   name: deptPrompt,
+      //   choices: [],
+      // },
     ])
     .then((roleData) => {
       db.query(
@@ -123,7 +123,49 @@ function addRole() {
     });
 }
 
-function addEmployee() {}
+function addEmployee() {
+  inquirer
+    .prompt([
+      {
+        type: "input",
+        message: "Enter employee's first name here",
+        name: "firstNamePrompt",
+      },
+      {
+        type: "input",
+        message: "Enter employee's last name here",
+        name: "lastNamePrompt",
+      },
+      {
+        type: "input",
+        message: "Please enter role id",
+        name: "roleIdPrompt",
+      },
+      {
+        type: "input",
+        message: "Please enter manager id",
+        name: "managerIdPrompt",
+      },
+    ])
+    .then((employeeData) => {
+      db.query(
+        "INSERT INTO employee SET first_name = ?, last_name = ?, role_id = ?, manager_id = ?",
+        [
+          employeeData.firstNamePrompt,
+          employeeData.lastNamePrompt,
+          employeeData.roleIdPrompt,
+          employeeData.managerIdPrompt,
+        ],
+        function (err, results) {
+          if (err) {
+            console.log(err);
+          }
+          console.log(results);
+          viewEmployees();
+        }
+      );
+    });
+}
 
 function updateEmployeeRole() {}
 

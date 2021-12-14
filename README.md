@@ -4,7 +4,7 @@
 
 ### **Description:**
 
-Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called <span style="color:orange"> **content management systems (CMS)** </span>. <br> Our <span style="color:green"> [_Employee Builder_](add git here) </span>is designed to do just that, by using our simple and easy command-line application using <span style="color:yellow"> _Node.js_, _Inquirer_, </span> and <span style="color:yellow"> _MySQL_ </span>. Our goal is to provide the ability to view and manage a set of departments, roles, and employees in a given company and organize the return as well as visualize thier buisness.
+Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called <span style="color:orange"> **content management systems (CMS)** </span>. <br> Our <span style="color:green"> [_Employee Builder_](https://github.com/SmithCray/employeeBuilder) </span>is designed to do just that, by using our simple and easy command-line application using <span style="color:yellow"> _Node.js_, _Inquirer_, </span> and <span style="color:yellow"> _MySQL_ </span>. Our goal is to provide the ability to view and manage a set of departments, roles, and employees in a given company and organize the return as well as visualize thier buisness.
 
 ### **Install and Usage**
 
@@ -29,8 +29,6 @@ Developers frequently have to create interfaces that allow non-developers to eas
 <span style= "color:green"> **Console Command;** </span>
 
 <span style="color:yellow">1.</span> node index.js
-
-<span style="color:yellow">2.</span> node server.js
 
 <br>
 
