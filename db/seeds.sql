@@ -1,4 +1,4 @@
-INSERT INTO department (id, names)
+INSERT INTO department (id, name)
 VALUES (30, "LionKing"),
        (27, "TheGodfather"),
        (12, "WestSideStory"),
